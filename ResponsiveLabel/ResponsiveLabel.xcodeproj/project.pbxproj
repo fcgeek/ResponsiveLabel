@@ -22,6 +22,20 @@
 		69D5E5851AB3040D00B64BDE /* ResponsiveLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5E5841AB3040D00B64BDE /* ResponsiveLabelTests.m */; };
 		69D5E5901AB3045B00B64BDE /* ResponsiveLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5E58F1AB3045B00B64BDE /* ResponsiveLabel.m */; };
 		69FA99861B8F26E300FD8AD8 /* CustomLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FA99851B8F26E300FD8AD8 /* CustomLayoutManager.m */; };
+		ECBB8B931F73A65A00CC7641 /* ResponsiveLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB8B8C1F73A65A00CC7641 /* ResponsiveLabel.framework */; };
+		ECBB8B941F73A65A00CC7641 /* ResponsiveLabel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB8B8C1F73A65A00CC7641 /* ResponsiveLabel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ECBB8B991F73A67D00CC7641 /* NSAttributedString+Processing.m in Sources */ = {isa = PBXBuildFile; fileRef = 6907ADA31B5E645800723CFF /* NSAttributedString+Processing.m */; };
+		ECBB8B9A1F73A67D00CC7641 /* ResponsiveLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5E58F1AB3045B00B64BDE /* ResponsiveLabel.m */; };
+		ECBB8B9B1F73A67D00CC7641 /* CustomLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FA99851B8F26E300FD8AD8 /* CustomLayoutManager.m */; };
+		ECBB8B9C1F73A67D00CC7641 /* PatternDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CCA6EC1AC58ADD00D8CAC0 /* PatternDescriptor.m */; };
+		ECBB8B9D1F73A67D00CC7641 /* InlineTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6907ADA01B5E644100723CFF /* InlineTextAttachment.m */; };
+		ECBB8B9E1F73A67D00CC7641 /* NSMutableAttributedString+BoundChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2AFD3B1CB507B600E8D9B9 /* NSMutableAttributedString+BoundChecker.m */; };
+		ECBB8B9F1F73A68B00CC7641 /* NSAttributedString+Processing.h in Headers */ = {isa = PBXBuildFile; fileRef = 6907ADA21B5E645800723CFF /* NSAttributedString+Processing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECBB8BA01F73A68B00CC7641 /* ResponsiveLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D5E58E1AB3045B00B64BDE /* ResponsiveLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECBB8BA11F73A68B00CC7641 /* CustomLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FA99841B8F26E300FD8AD8 /* CustomLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECBB8BA21F73A68B00CC7641 /* PatternDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CCA6EB1AC58ADD00D8CAC0 /* PatternDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECBB8BA31F73A68B00CC7641 /* InlineTextAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 6907AD9F1B5E644100723CFF /* InlineTextAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECBB8BA41F73A68B00CC7641 /* NSMutableAttributedString+BoundChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E2AFD3A1CB507B600E8D9B9 /* NSMutableAttributedString+BoundChecker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +46,28 @@
 			remoteGlobalIDString = 69D5E5641AB3040D00B64BDE;
 			remoteInfo = ResponsiveLabel;
 		};
+		ECBB8B911F73A65A00CC7641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69D5E55D1AB3040D00B64BDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBB8B8B1F73A65A00CC7641;
+			remoteInfo = ResponsiveLabel;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECBB8B981F73A65A00CC7641 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ECBB8B941F73A65A00CC7641 /* ResponsiveLabel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4E2AFD3A1CB507B600E8D9B9 /* NSMutableAttributedString+BoundChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+BoundChecker.h"; path = "Source/NSMutableAttributedString+BoundChecker.h"; sourceTree = "<group>"; };
@@ -54,7 +89,7 @@
 		6919B94C1B60EB60000EE885 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		69CCA6EB1AC58ADD00D8CAC0 /* PatternDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatternDescriptor.h; path = Source/PatternDescriptor.h; sourceTree = "<group>"; };
 		69CCA6EC1AC58ADD00D8CAC0 /* PatternDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PatternDescriptor.m; path = Source/PatternDescriptor.m; sourceTree = "<group>"; };
-		69D5E5651AB3040D00B64BDE /* ResponsiveLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResponsiveLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D5E5651AB3040D00B64BDE /* ResponsiveLabelExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResponsiveLabelExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D5E5691AB3040D00B64BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69D5E56A1AB3040D00B64BDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69D5E57E1AB3040D00B64BDE /* ResponsiveLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResponsiveLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +99,8 @@
 		69D5E58F1AB3045B00B64BDE /* ResponsiveLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResponsiveLabel.m; path = Source/ResponsiveLabel.m; sourceTree = "<group>"; };
 		69FA99841B8F26E300FD8AD8 /* CustomLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomLayoutManager.h; path = Source/CustomLayoutManager.h; sourceTree = "<group>"; };
 		69FA99851B8F26E300FD8AD8 /* CustomLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomLayoutManager.m; path = Source/CustomLayoutManager.m; sourceTree = "<group>"; };
+		ECBB8B8C1F73A65A00CC7641 /* ResponsiveLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ResponsiveLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBB8B8F1F73A65A00CC7641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +108,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECBB8B931F73A65A00CC7641 /* ResponsiveLabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		69D5E57B1AB3040D00B64BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBB8B881F73A65A00CC7641 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -105,8 +150,9 @@
 		69D5E55C1AB3040D00B64BDE = {
 			isa = PBXGroup;
 			children = (
-				69D5E5671AB3040D00B64BDE /* ResponsiveLabel */,
+				69D5E5671AB3040D00B64BDE /* ResponsiveLabelExample */,
 				69D5E5811AB3040D00B64BDE /* ResponsiveLabelTests */,
+				ECBB8B8D1F73A65A00CC7641 /* ResponsiveLabel */,
 				69D5E5661AB3040D00B64BDE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,20 +160,21 @@
 		69D5E5661AB3040D00B64BDE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69D5E5651AB3040D00B64BDE /* ResponsiveLabel.app */,
+				69D5E5651AB3040D00B64BDE /* ResponsiveLabelExample.app */,
 				69D5E57E1AB3040D00B64BDE /* ResponsiveLabelTests.xctest */,
+				ECBB8B8C1F73A65A00CC7641 /* ResponsiveLabel.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69D5E5671AB3040D00B64BDE /* ResponsiveLabel */ = {
+		69D5E5671AB3040D00B64BDE /* ResponsiveLabelExample */ = {
 			isa = PBXGroup;
 			children = (
 				6919B93F1B60EB60000EE885 /* Demo Project */,
 				69D5E5681AB3040D00B64BDE /* Supporting Files */,
 				69D5E5911AB3045F00B64BDE /* Source */,
 			);
-			path = ResponsiveLabel;
+			path = ResponsiveLabelExample;
 			sourceTree = "<group>";
 		};
 		69D5E5681AB3040D00B64BDE /* Supporting Files */ = {
@@ -175,24 +222,50 @@
 			name = Source;
 			sourceTree = "<group>";
 		};
+		ECBB8B8D1F73A65A00CC7641 /* ResponsiveLabel */ = {
+			isa = PBXGroup;
+			children = (
+				ECBB8B8F1F73A65A00CC7641 /* Info.plist */,
+			);
+			path = ResponsiveLabel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		ECBB8B891F73A65A00CC7641 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBB8B9F1F73A68B00CC7641 /* NSAttributedString+Processing.h in Headers */,
+				ECBB8BA01F73A68B00CC7641 /* ResponsiveLabel.h in Headers */,
+				ECBB8BA11F73A68B00CC7641 /* CustomLayoutManager.h in Headers */,
+				ECBB8BA21F73A68B00CC7641 /* PatternDescriptor.h in Headers */,
+				ECBB8BA31F73A68B00CC7641 /* InlineTextAttachment.h in Headers */,
+				ECBB8BA41F73A68B00CC7641 /* NSMutableAttributedString+BoundChecker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		69D5E5641AB3040D00B64BDE /* ResponsiveLabel */ = {
+		69D5E5641AB3040D00B64BDE /* ResponsiveLabelExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69D5E5881AB3040D00B64BDE /* Build configuration list for PBXNativeTarget "ResponsiveLabel" */;
+			buildConfigurationList = 69D5E5881AB3040D00B64BDE /* Build configuration list for PBXNativeTarget "ResponsiveLabelExample" */;
 			buildPhases = (
 				69D5E5611AB3040D00B64BDE /* Sources */,
 				69D5E5621AB3040D00B64BDE /* Frameworks */,
 				69D5E5631AB3040D00B64BDE /* Resources */,
+				ECBB8B981F73A65A00CC7641 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ECBB8B921F73A65A00CC7641 /* PBXTargetDependency */,
 			);
-			name = ResponsiveLabel;
+			name = ResponsiveLabelExample;
 			productName = ResponsiveLabel;
-			productReference = 69D5E5651AB3040D00B64BDE /* ResponsiveLabel.app */;
+			productReference = 69D5E5651AB3040D00B64BDE /* ResponsiveLabelExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		69D5E57D1AB3040D00B64BDE /* ResponsiveLabelTests */ = {
@@ -213,6 +286,24 @@
 			productReference = 69D5E57E1AB3040D00B64BDE /* ResponsiveLabelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		ECBB8B8B1F73A65A00CC7641 /* ResponsiveLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBB8B951F73A65A00CC7641 /* Build configuration list for PBXNativeTarget "ResponsiveLabel" */;
+			buildPhases = (
+				ECBB8B871F73A65A00CC7641 /* Sources */,
+				ECBB8B881F73A65A00CC7641 /* Frameworks */,
+				ECBB8B891F73A65A00CC7641 /* Headers */,
+				ECBB8B8A1F73A65A00CC7641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResponsiveLabel;
+			productName = ResponsiveLabel;
+			productReference = ECBB8B8C1F73A65A00CC7641 /* ResponsiveLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -229,6 +320,10 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 69D5E5641AB3040D00B64BDE;
 					};
+					ECBB8B8B1F73A65A00CC7641 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 69D5E5601AB3040D00B64BDE /* Build configuration list for PBXProject "ResponsiveLabel" */;
@@ -244,8 +339,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69D5E5641AB3040D00B64BDE /* ResponsiveLabel */,
+				69D5E5641AB3040D00B64BDE /* ResponsiveLabelExample */,
 				69D5E57D1AB3040D00B64BDE /* ResponsiveLabelTests */,
+				ECBB8B8B1F73A65A00CC7641 /* ResponsiveLabel */,
 			);
 		};
 /* End PBXProject section */
@@ -262,6 +358,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		69D5E57C1AB3040D00B64BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBB8B8A1F73A65A00CC7641 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,13 +400,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECBB8B871F73A65A00CC7641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBB8B991F73A67D00CC7641 /* NSAttributedString+Processing.m in Sources */,
+				ECBB8B9A1F73A67D00CC7641 /* ResponsiveLabel.m in Sources */,
+				ECBB8B9B1F73A67D00CC7641 /* CustomLayoutManager.m in Sources */,
+				ECBB8B9C1F73A67D00CC7641 /* PatternDescriptor.m in Sources */,
+				ECBB8B9D1F73A67D00CC7641 /* InlineTextAttachment.m in Sources */,
+				ECBB8B9E1F73A67D00CC7641 /* NSMutableAttributedString+BoundChecker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		69D5E5801AB3040D00B64BDE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 69D5E5641AB3040D00B64BDE /* ResponsiveLabel */;
+			target = 69D5E5641AB3040D00B64BDE /* ResponsiveLabelExample */;
 			targetProxy = 69D5E57F1AB3040D00B64BDE /* PBXContainerItemProxy */;
+		};
+		ECBB8B921F73A65A00CC7641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBB8B8B1F73A65A00CC7641 /* ResponsiveLabel */;
+			targetProxy = ECBB8B911F73A65A00CC7641 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -407,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ResponsiveLabel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -418,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ResponsiveLabel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -461,6 +584,89 @@
 			};
 			name = Release;
 		};
+		ECBB8B961F73A65A00CC7641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ResponsiveLabel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljl.ResponsiveLabel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECBB8B971F73A65A00CC7641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ResponsiveLabel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljl.ResponsiveLabel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -473,7 +679,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69D5E5881AB3040D00B64BDE /* Build configuration list for PBXNativeTarget "ResponsiveLabel" */ = {
+		69D5E5881AB3040D00B64BDE /* Build configuration list for PBXNativeTarget "ResponsiveLabelExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69D5E5891AB3040D00B64BDE /* Debug */,
@@ -487,6 +693,15 @@
 			buildConfigurations = (
 				69D5E58C1AB3040D00B64BDE /* Debug */,
 				69D5E58D1AB3040D00B64BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBB8B951F73A65A00CC7641 /* Build configuration list for PBXNativeTarget "ResponsiveLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBB8B961F73A65A00CC7641 /* Debug */,
+				ECBB8B971F73A65A00CC7641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
